@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
 @font-face {
     font-family: 'alkatra';
@@ -5,4 +9,12 @@
          url(./fonts/alkatra/alkatra-variablefont_wght-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+body {
+    display: flex;
+}
+
+#skelly {
+    height: 100vh;
 }
