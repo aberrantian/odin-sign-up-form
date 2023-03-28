@@ -11,10 +11,39 @@
     font-style: normal;
 }
 
+#banner-text {
+    font-family: 'alkatra';
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
 body {
     display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#left-content {
+    flex: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-content {
+    flex: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #skelly {
-    height: 100vh;
+    height: 100px;
 }
