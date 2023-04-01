@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
 @font-face {
@@ -27,6 +28,8 @@ body {
 
     height: 100vh;
     width: 100vw;
+
+    font-family: sans-serif;
 }
 
 #left-content {
@@ -50,6 +53,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color: #BFBDB0;
 }
 
 #skelly {
@@ -68,4 +73,36 @@ body {
 
 #image-credit > a {
     color: rgb(255, 255, 255);
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: grey;
+    width: 100%;
+
+    margin: 32px 0px;
+    padding: 32px 0px;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#inputs-1, #inputs-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mid-section > p {
+    margin-bottom: 32px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'alkatra';
 }
