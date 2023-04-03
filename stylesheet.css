@@ -52,21 +52,20 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 
     background-color: #dbdbdb;
 }
 
 .top-section > p {
-    width: 70%;
+    width: 80%;
     text-align: left;
+    font-size: 1.5rem;
 }
 
 .top-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 32px;
+    margin-left: 32px;
 }
 
 #skelly {
@@ -133,6 +132,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 64px;
 }
 
 .create-account-button {
