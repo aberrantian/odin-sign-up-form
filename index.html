@@ -14,10 +14,13 @@
     </div>
     <div id="right-content">
         <div class="top-section">
-            <p>Sign up for the <strong><em>Afterlife</em></strong>! By signing up for the Afterlife you will be securing <strong>your place</strong> into a utopia, <strong><em>forever</em></strong>.<br><br>What are you waiting for?</p>
+            <p>Sign up for the Afterlife! By signing up for the Afterlife you will be securing your place into a utopia, <em>forever</em>.<br><br>What are you waiting for?</p>
         </div>
         <div class="mid-section">
-            <p>Let's get started!</p>
+            <div class="text-container">
+                <p class="get-started">Let's get started!</p>
+                <p class="asterisk-note">fields marked with an asterisk (<span class="color-red">*</span>) are required</p>
+            </div>
 
             <form action="" method="post" id="sign-up-form">
                 <div id="inputs-1">
@@ -26,12 +29,12 @@
                         <input type="text" id="first_name">
                     </label>
                     <label for="email">
-                        Email<br>
-                        <input type="email" id="email">
+                        Email<span class="color-red">*</span><br>
+                        <input type="email" id="email" required>
                     </label>
                     <label for="password">
-                        Password<br>
-                        <input type="password" id="password" class="error">
+                        Password<span class="color-red">*</span><br>
+                        <input type="password" id="password" class="error" required>
                     </label>
                 </div>
                 <div id="inputs-2">
@@ -44,8 +47,8 @@
                         <input type="tel" id="phone_number">
                     </label>
                     <label for="confirm_password">
-                        Confirm Password<br>
-                        <input type="password" id="confirm_password" class="error">
+                        Confirm Password<span class="color-red">*</span><br>
+                        <input type="password" id="confirm_password" class="error" required>
                     </label>
                 </div>
             </form>
