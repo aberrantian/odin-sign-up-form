@@ -131,10 +131,9 @@ body {
 .bottom-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     margin-bottom: 64px;
+    padding: 0px 32px;
 }
 
 .create-account-button {
@@ -149,6 +148,9 @@ body {
 
     padding: 12px 24px;
     margin-bottom: 16px;
+
+    height: fit-content;
+    width: fit-content;
 }
 
 .create-account-button:hover {
