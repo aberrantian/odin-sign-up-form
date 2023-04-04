@@ -64,8 +64,8 @@ body {
 }
 
 .top-section {
-    margin-top: 32px;
-    margin-left: 32px;
+    padding-top: 32px;
+    padding-left: 32px;
 }
 
 #skelly {
@@ -90,7 +90,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: fit-content;
     
     background-color: #ffffff;
