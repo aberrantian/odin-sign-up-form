@@ -1,184 +1,186 @@
 * {
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
 }
 
 @font-face {
-    font-family: 'alkatra';
-    src: url(./fonts/alkatra/alkatra-variablefont_wght-webfont.woff2) format('woff2'),
-         url(./fonts/alkatra/alkatra-variablefont_wght-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "alkatra";
+  src: url(./fonts/alkatra/alkatra-variablefont_wght-webfont.woff2)
+      format("woff2"),
+    url(./fonts/alkatra/alkatra-variablefont_wght-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 #banner-text {
-    font-family: 'alkatra';
-    font-size: 4rem;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    width: 100%;
-    user-select: none;
+  font-family: "alkatra";
+  font-size: 4rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 100%;
+  user-select: none;
 }
 
 body {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 
-    font-family: sans-serif;
-    font-size: 1.2rem;
+  font-family: sans-serif;
+  font-size: 1.2rem;
 }
 
 #left-content {
-    width: 50vw;
+  width: 50vw;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    background-image: url(./skelly.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url(./skelly.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #right-content {
-    width: 50vw;
+  width: 50vw;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    background-color: #dbdbdb;
+  background-color: #dbdbdb;
 }
 
 .top-section > p {
-    width: 80%;
-    text-align: left;
-    font-size: 1.5rem;
+  width: 80%;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 .top-section {
-    padding-top: 32px;
-    padding-left: 32px;
+  padding-top: 32px;
+  padding-left: 32px;
 }
 
 #skelly {
-    height: 100px;
+  height: 100px;
 }
 
 #image-credit {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    
-    position: absolute;
-    bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
 
-    padding: 8px;
+  position: absolute;
+  bottom: 0px;
+
+  padding: 8px;
 }
 
 #image-credit > a {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .mid-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: fit-content;
-    
-    background-color: #ffffff;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
 
-    margin: 32px 0px;
-    padding: 32px 32px;
+  background-color: #ffffff;
+  width: 100%;
+
+  margin: 32px 0px;
+  padding: 32px 32px;
 }
 
 #sign-up-form {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 
-    margin: 32px 0px;
+  margin: 32px 0px;
 }
 
-#inputs-1, #inputs-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+#inputs-1,
+#inputs-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .get-started {
-    font-size: 1.8rem;
-    font-weight: bolder;
-    font-family: 'alkatra';
+  font-size: 1.8rem;
+  font-weight: bolder;
+  font-family: "alkatra";
 }
 
 .asterisk-note {
-    font-size: 1.2rem;
-    color: #2c2c2c;
+  font-size: 1.2rem;
+  color: #2c2c2c;
 }
 
 .color-red {
-    color: red;
+  color: red;
 }
 
 .bottom-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    margin-bottom: 64px;
-    padding: 0px 32px;
+  margin-bottom: 64px;
+  padding: 0px 32px;
 }
 
 .create-account-button {
-    color: white;
-    background-color: #EF6461;
+  color: white;
+  background-color: #ef6461;
 
-    font-size: 1.2rem;
-    font-weight: bolder;
+  font-size: 1.2rem;
+  font-weight: bolder;
 
-    border-radius: 8px;
-    border: none;
+  border-radius: 8px;
+  border: none;
 
-    padding: 12px 24px;
-    margin-bottom: 16px;
+  padding: 12px 24px;
+  margin-bottom: 16px;
 
-    height: fit-content;
-    width: fit-content;
+  height: fit-content;
+  width: fit-content;
 }
 
 .create-account-button:hover {
-    cursor: pointer;
-    background-color: #F27F7D;
+  cursor: pointer;
+  background-color: #f27f7d;
 }
 
 .create-account-button:active {
-    background-color: #EF6461;
+  background-color: #ef6461;
 }
 
 input {
-    border-radius: 8px;
-    border: 2px solid grey;
-    height: 1.5rem;
-    padding: 4px;
-    font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid grey;
+  height: 1.5rem;
+  padding: 4px;
+  font-size: 1rem;
 }
 
 input:focus {
-    border: 2px solid black;
-    outline: none;
+  border: 2px solid black;
+  outline: none;
 }
 
 a {
-    color: #EF6461;
+  color: #ef6461;
 }
 
 a:hover {
-    color: #F27F7D;
+  color: #f27f7d;
 }
