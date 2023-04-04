@@ -171,7 +171,8 @@ input {
 }
 
 input:focus {
-    border-color: blue;
+    border: 2px solid black;
+    outline: none;
 }
 
 a {
