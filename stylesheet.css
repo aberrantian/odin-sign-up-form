@@ -96,13 +96,15 @@ body {
     width: 100%;
 
     margin: 32px 0px;
-    padding: 16px 0px;
+    padding: 16px 32px;
 }
 
 #sign-up-form {
     display: flex;
     flex-direction: row;
     gap: 16px;
+
+    margin: 32px 0px;
 }
 
 #inputs-1, #inputs-2 {
