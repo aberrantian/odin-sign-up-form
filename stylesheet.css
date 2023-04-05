@@ -40,7 +40,7 @@ Left Section
 
 #banner-text {
   font-family: "alkatra";
-  font-size: 4rem;
+  font-size: 400%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
@@ -49,7 +49,7 @@ Left Section
 }
 
 #left-content {
-  width: 50%;
+  width: 40%;
 
   display: flex;
   flex-direction: column;
@@ -80,29 +80,25 @@ Left Section
 Right Section
 */
 
-/*
-
-
-
 #right-content {
-  width: 50vw;
+  width: 60%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: start;
 
   background-color: #dbdbdb;
 }
 
-.top-section > p {
-  width: 80%;
-  text-align: left;
-  font-size: 100%;
+.top-section {
+  padding-left: 32px;
 }
 
-.top-section {
-  padding-top: 32px;
-  padding-left: 32px;
+#top-section-text {
+  width: 60%;
+  text-align: left;
+  font-size: 100%;
 }
 
 .mid-section {
@@ -114,45 +110,57 @@ Right Section
   background-color: #ffffff;
   width: 100%;
 
-  margin: 32px 0px;
+  margin: 16px 0px;
   padding: 32px 32px;
+}
+
+.get-started {
+  font-weight: bolder;
+  font-family: "alkatra";
+  font-size: 150%;
+  margin-top: -11px;
+}
+
+.asterisk-note {
+  font-size: 80%;
+  color: #2c2c2c;
+  margin-top: -8px;
+  margin-bottom: 16px;
 }
 
 #sign-up-form {
   display: flex;
   flex-direction: row;
   gap: 16px;
-
-  margin: 32px 0px;
 }
 
 #inputs-1,
 #inputs-2 {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 
-.get-started {
-  font-size: 1.8rem;
-  font-weight: bolder;
-  font-family: "alkatra";
+input {
+  border-radius: 8px;
+  border: 2px solid grey;
+  height: 1.5rem;
+  padding: 0px 4px;
+  font-size: 100%;
+  flex: 2 2 50%;
 }
 
-.asterisk-note {
-  font-size: 1.2rem;
-  color: #2c2c2c;
-}
-
-.color-red {
-  color: red;
+input:focus {
+  border: 2px solid black;
+  outline: none;
 }
 
 .bottom-section {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  justify-content: start;
 
-  margin-bottom: 64px;
   padding: 0px 32px;
 }
 
@@ -160,7 +168,7 @@ Right Section
   color: white;
   background-color: #ef6461;
 
-  font-size: 1.2rem;
+  font-size: 100%;
   font-weight: bolder;
 
   border-radius: 8px;
@@ -182,19 +190,6 @@ Right Section
   background-color: #ef6461;
 }
 
-input {
-  border-radius: 8px;
-  border: 2px solid grey;
-  height: 1.5rem;
-  padding: 4px;
-  font-size: 1rem;
-}
-
-input:focus {
-  border: 2px solid black;
-  outline: none;
-}
-
 a {
   color: #ef6461;
 }
@@ -202,5 +197,3 @@ a {
 a:hover {
   color: #f27f7d;
 }
-
-*/
