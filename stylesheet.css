@@ -1,7 +1,11 @@
 /*
 TODO:
-- Rewrite CSS as it is broken in different desktop resolutions.
+- Rewrite CSS as it is broken in different desktop resolutions. *WIP*
 - Make input borders react when input content is correct or incorrect etc
+*/
+
+/* 
+Init
 */
 
 * {
@@ -19,16 +23,6 @@ TODO:
   font-style: normal;
 }
 
-#banner-text {
-  font-family: "alkatra";
-  font-size: 4rem;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  width: 100%;
-  user-select: none;
-}
-
 body {
   display: flex;
   flex-direction: row;
@@ -40,8 +34,22 @@ body {
   font-size: 1.2rem;
 }
 
+/* 
+Left Section
+*/
+
+#banner-text {
+  font-family: "alkatra";
+  font-size: 4rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 100%;
+  user-select: none;
+}
+
 #left-content {
-  width: 50vw;
+  width: 50%;
 
   display: flex;
   flex-direction: column;
@@ -52,31 +60,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-#right-content {
-  width: 50vw;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  background-color: #dbdbdb;
-}
-
-.top-section > p {
-  width: 80%;
-  text-align: left;
-  font-size: 1.5rem;
-}
-
-.top-section {
-  padding-top: 32px;
-  padding-left: 32px;
-}
-
-#skelly {
-  height: 100px;
 }
 
 #image-credit {
@@ -91,6 +74,35 @@ body {
 
 #image-credit > a {
   color: rgb(255, 255, 255);
+}
+
+/* 
+Right Section
+*/
+
+/*
+
+
+
+#right-content {
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #dbdbdb;
+}
+
+.top-section > p {
+  width: 80%;
+  text-align: left;
+  font-size: 100%;
+}
+
+.top-section {
+  padding-top: 32px;
+  padding-left: 32px;
 }
 
 .mid-section {
@@ -190,3 +202,5 @@ a {
 a:hover {
   color: #f27f7d;
 }
+
+*/
