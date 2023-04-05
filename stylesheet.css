@@ -155,6 +155,16 @@ input:focus {
   outline: none;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #ef6461;
+}
+
+.red {
+  color: #ef6461;
+}
+
 .bottom-section {
   display: flex;
   flex-direction: column;
