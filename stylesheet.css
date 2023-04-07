@@ -172,6 +172,14 @@ input:focus {
   outline: none;
 }
 
+.valid-input {
+  border-color: green;
+}
+
+.invalid-input {
+  border-color: red;
+}
+
 .underline {
   text-decoration: underline;
   text-decoration-thickness: 2px;
