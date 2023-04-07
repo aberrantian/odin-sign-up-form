@@ -105,7 +105,7 @@ Right Section
 .mid-section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   height: fit-content;
 
   background-color: #ffffff;
@@ -113,6 +113,17 @@ Right Section
 
   margin: 16px 0px;
   padding: 32px 32px;
+}
+
+.mid-right-section {
+  margin-left: 32px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  font-size: 90%;
 }
 
 .get-started {
