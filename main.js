@@ -7,7 +7,51 @@ const INPUTS = {
   confirmPassword: document.getElementById("confirm_password"),
 };
 
-for (const INPUT in INPUTS) {
-  console.log(INPUT);
-  console.log(INPUTS[INPUT].validity);
-}
+INPUTS.firstName.addEventListener("input", (event) => {
+  /*
+  IF NOT empty AND only letters
+    valid = true
+  ELSE
+    valid = false
+  */
+});
+INPUTS.lastName.addEventListener("input", (event) => {
+  /*
+  IF NOT empty AND only letters
+    valid = true
+  ELSE
+    valid = false
+  */
+});
+INPUTS.email.addEventListener("input", (event) => {
+  /*
+  IF NOT empty AND valid email
+    valid = true
+  ELSE
+    valid = false
+  */
+});
+INPUTS.phone.addEventListener("input", (event) => {
+  /*
+  IF NOT empty AND only numbers AND valid number
+    valid = true
+  ELSE
+    valid = false
+  */
+});
+INPUTS.password.addEventListener("input", (event) => {
+  /*
+  IF NOT empty AND meets criteria
+    valid = true
+  ELSE
+    valid = false
+  */
+});
+INPUTS.confirmPassword.addEventListener("input", (event) => {
+  /*
+  IF matches password
+    valid = true
+  ELSE
+    valid = false
+  */
+});
