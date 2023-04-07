@@ -1,6 +1,5 @@
 /*
 TODO:
-- Rewrite CSS as it is broken in different desktop resolutions. *WIP*
 - Make input width auto resize
 - Make input borders react when input content is correct or incorrect etc
 */
@@ -159,7 +158,9 @@ input {
   height: 1.5rem;
   padding: 0px 4px;
   font-size: 100%;
-  flex: 2 2 50%;
+
+  width: 200px;
+  flex: 1 1 auto; /* If this line isn't included the midsection overflows the body and I don't know why */
 }
 
 input:focus {
