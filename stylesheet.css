@@ -1,6 +1,6 @@
 /*
 TODO:
-- Fix keyboard ux: tabbing is dumb rn
+- Fix mid section overflow
 - Make input borders react when input content is correct or incorrect etc
 - Make input width auto resize
 */
@@ -146,10 +146,14 @@ Right Section
   gap: 16px;
 }
 
-#inputs-1,
-#inputs-2 {
+.input-table {
   display: flex;
   flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
   gap: 8px;
 }
 
@@ -161,7 +165,6 @@ input {
   font-size: 100%;
 
   width: 200px;
-  flex: 1 1 auto; /* If this line isn't included the midsection overflows the body and I don't know why */
 }
 
 input:focus {
@@ -177,6 +180,7 @@ input:focus {
 
 .red {
   color: #ef6461;
+  font-weight: bold;
 }
 
 .bottom-section {

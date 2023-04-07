@@ -49,43 +49,45 @@
           </div>
 
           <form action="" method="post" id="sign-up-form">
-            <div id="inputs-1">
-              <label for="first_name">
-                First Name<br />
-                <input type="text" id="first_name" />
-              </label>
+            <div class="input-table">
+              <div class="input-row">
+                <label for="first_name">
+                  First Name<br />
+                  <input type="text" id="first_name" />
+                </label>
 
-              <label for="email">
-                Email*<br />
-                <input type="email" id="email" required />
-              </label>
+                <label for="last_name">
+                  Last Name<br />
+                  <input type="text" id="last_name" />
+                </label>
+              </div>
+              <div class="input-row">
+                <label for="email">
+                  Email*<br />
+                  <input type="email" id="email" required />
+                </label>
 
-              <label for="password">
-                Password*<br />
-                <input type="password" id="password" class="error" required />
-              </label>
-            </div>
+                <label for="phone_number">
+                  Phone Number<br />
+                  <input type="tel" id="phone_number" />
+                </label>
+              </div>
+              <div class="input-row">
+                <label for="password">
+                  Password*<br />
+                  <input type="password" id="password" class="error" required />
+                </label>
 
-            <div id="inputs-2">
-              <label for="last_name">
-                Last Name<br />
-                <input type="text" id="last_name" />
-              </label>
-
-              <label for="phone_number">
-                Phone Number<br />
-                <input type="tel" id="phone_number" />
-              </label>
-
-              <label for="confirm_password">
-                Confirm Password*<br />
-                <input
-                  type="password"
-                  id="confirm_password"
-                  class="error"
-                  required
-                />
-              </label>
+                <label for="confirm_password">
+                  Confirm Password*<br />
+                  <input
+                    type="password"
+                    id="confirm_password"
+                    class="error"
+                    required
+                  />
+                </label>
+              </div>
             </div>
           </form>
         </div>
