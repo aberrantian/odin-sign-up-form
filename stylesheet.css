@@ -1,6 +1,5 @@
 /*
 TODO:
-- Fix mid section overflow
 - Make input borders react when input content is correct or incorrect etc
 - Make input width auto resize
 */
@@ -33,6 +32,8 @@ body {
 
   font-family: sans-serif;
   font-size: 1.2rem;
+
+  overflow: hidden;
 }
 
 /* 
