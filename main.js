@@ -34,7 +34,7 @@ FORM.addEventListener("submit", (event) => {
     ERROR.innerText = errorMessages.join("\n");
 
     ERROR.style =
-      "color: red;width: fit-content;padding: 4px;border: red solid 1px;";
+      "color: white;background-color: red;width: fit-content;padding: 8px;border: red solid 1px;border-radius: 12px;";
   } else {
     ERROR.style = "";
   }
