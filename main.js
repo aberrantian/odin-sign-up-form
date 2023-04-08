@@ -9,8 +9,8 @@ const INPUTS = {
 
 const ERROR = document.getElementById("error");
 
-// ERROR.style =
-//   "color: red;width: fit-content;padding: 4px;border: red solid 1px;";
+const letters = /[A-Za-z]/g;
+const numbers = /[0-9]/g;
 
 const FORM = document.getElementById("sign-up-form");
 
@@ -19,6 +19,10 @@ FORM.addEventListener("submit", (event) => {
 
   if (INPUTS.password.value.length < 10) {
     errorMessages.push("Password is too short.");
+  } else if (!letters.test(INPUTS.password.value)) {
+    errorMessages.push("Password requires at least 1 letter.");
+  } else if (!numbers.test(INPUTS.password.value)) {
+    errorMessages.push("Password requires at least 1 number.");
   }
 
   if (INPUTS.confirmPassword.value != INPUTS.password.value) {
