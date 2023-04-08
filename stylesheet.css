@@ -126,12 +126,6 @@ Right Section
   font-size: 90%;
 }
 
-#error {
-  color: red;
-  width: fit-content;
-  padding: 4px;
-}
-
 .get-started {
   font-weight: bolder;
   font-family: "alkatra";
