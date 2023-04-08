@@ -7,6 +7,11 @@ const INPUTS = {
   confirmPassword: document.getElementById("confirm_password"),
 };
 
+const FORM = document.getElementById("sign-up-form");
+FORM.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
+
 INPUTS.firstName.addEventListener("input", (event) => {
   /*
   IF NOT empty AND only letters
