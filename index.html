@@ -76,17 +76,12 @@
               <div class="input-row">
                 <label for="password">
                   Password*<br />
-                  <input type="password" id="password" class="error" required />
+                  <input type="password" id="password" required />
                 </label>
 
                 <label for="confirm_password">
                   Confirm Password*<br />
-                  <input
-                    type="password"
-                    id="confirm_password"
-                    class="error"
-                    required
-                  />
+                  <input type="password" id="confirm_password" required />
                 </label>
               </div>
             </div>
@@ -94,13 +89,16 @@
         </div>
 
         <div class="mid-right-section">
-          <p class="password-requirements">
-            <span class="underline">Password Requirements</span><br />
-            <span class="red">-</span> At least 10 characters long<br />
-            <span class="red">-</span> At least 1 letter<br />
-            <span class="red">-</span> At least 1 number<br />
-            <span class="red">-</span> At least 1 special character<br />
-          </p>
+          <div id="error"></div>
+          <div class="password-requirements">
+            <p>
+              <span class="underline">Password Requirements</span><br />
+              <span class="red">-</span> At least 10 characters long<br />
+              <span class="red">-</span> At least 1 letter<br />
+              <span class="red">-</span> At least 1 number<br />
+              <span class="red">-</span> At least 1 special character<br />
+            </p>
+          </div>
         </div>
       </div>
 

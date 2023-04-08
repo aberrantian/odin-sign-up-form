@@ -121,9 +121,15 @@ Right Section
 
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: space-between;
 
   font-size: 90%;
+}
+
+#error {
+  color: red;
+  width: fit-content;
+  padding: 4px;
 }
 
 .get-started {

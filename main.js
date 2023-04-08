@@ -7,6 +7,11 @@ const INPUTS = {
   confirmPassword: document.getElementById("confirm_password"),
 };
 
+const ERROR = document.getElementById("error");
+
+// ERROR.style =
+//   "color: red;width: fit-content;padding: 4px;border: red solid 1px;";
+
 const FORM = document.getElementById("sign-up-form");
 FORM.addEventListener("submit", (event) => {
   event.preventDefault();
