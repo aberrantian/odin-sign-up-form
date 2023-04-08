@@ -18,6 +18,7 @@ FORM.addEventListener("submit", (event) => {
 });
 
 INPUTS.firstName.addEventListener("input", (event) => {
+  const self = INPUTS.firstName;
   /*
   IF NOT empty AND only letters
     valid = true
@@ -26,6 +27,7 @@ INPUTS.firstName.addEventListener("input", (event) => {
   */
 });
 INPUTS.lastName.addEventListener("input", (event) => {
+  const self = INPUTS.lastName;
   /*
   IF NOT empty AND only letters
     valid = true
@@ -34,6 +36,7 @@ INPUTS.lastName.addEventListener("input", (event) => {
   */
 });
 INPUTS.email.addEventListener("input", (event) => {
+  const self = INPUTS.email;
   /*
   IF NOT empty AND valid email
     valid = true
@@ -42,6 +45,7 @@ INPUTS.email.addEventListener("input", (event) => {
   */
 });
 INPUTS.phone.addEventListener("input", (event) => {
+  const self = INPUTS.phone;
   /*
   IF NOT empty AND only numbers AND valid number
     valid = true
@@ -50,6 +54,7 @@ INPUTS.phone.addEventListener("input", (event) => {
   */
 });
 INPUTS.password.addEventListener("input", (event) => {
+  const self = INPUTS.password;
   /*
   IF NOT empty AND meets criteria
     valid = true
@@ -58,6 +63,7 @@ INPUTS.password.addEventListener("input", (event) => {
   */
 });
 INPUTS.confirmPassword.addEventListener("input", (event) => {
+  const self = INPUTS.confirmPassword;
   /*
   IF matches password
     valid = true
