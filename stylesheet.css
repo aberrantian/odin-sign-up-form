@@ -146,6 +146,10 @@ Right Section
   margin-bottom: 16px;
 }
 
+.asterisk {
+  color: red;
+}
+
 #sign-up-form {
   display: flex;
   flex-direction: row;
